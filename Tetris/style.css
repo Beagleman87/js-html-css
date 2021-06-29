@@ -1,0 +1,75 @@
+body{
+  background-color: #D9AFD9;
+background-image: linear-gradient(300deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+#title{
+  font-size: 50px;
+  font-family: Jokerman;
+  text-align: center;
+}
+
+#subtitle{
+  font-size: 30px;
+  font-family: jokerman;
+  text-align: center;
+}
+.container {
+    display: flex;
+    
+  }
+
+  .grid {
+    border-style: groove;
+    border-color: blue;
+    margin-left: 550px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+;
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .tetromino {
+    background-color: blue;
+  }
+  
+  
+  .mini-grid {
+    margin: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+
+  #fdset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    border-radius: 20px;
+    border-style:double ;
+    border-color: maroon;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  }
+  #fdset start-button{
+    position: center;
+  }
+
+  #score{
+    position: relative;;
+  }
+
